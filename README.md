@@ -2,7 +2,7 @@
 
 EmotiFusion is a multimodal deep learning project that detects human emotions by combining facial expression analysis and text-based sentiment understanding. It bridges visual and linguistic modalities using an attention-based fusion architecture, enabling more accurate emotion classification.
 
-🚀 Overview
+## 🚀 Overview
 
 The model integrates two primary components:
 
@@ -12,7 +12,7 @@ Textual Stream: A BERT-based encoder (bert-base-uncased) that transforms dialogu
 
 Both 512-dimensional embeddings from the visual and textual streams are fused to produce a joint representation, which is then passed through fully connected layers for final emotion prediction.
 
-🎯 Key Features
+## 🎯 Key Features
 
 Multimodal Fusion: Combines vision and text features for holistic emotion understanding.
 
@@ -24,7 +24,7 @@ Pretrained Backbones: Leverages transfer learning with ResNet, MobileNet, and BE
 
 Custom Synthetic Dataset: Generates text dialogues for emotion labels, complementing AffectNet’s visual dataset.
 
-🧩 Tech Stack
+## 🧩 Tech Stack
 
 Frameworks: PyTorch, Transformers (Hugging Face), Albumentations
 
@@ -34,6 +34,6 @@ Dataset: AffectNet (faces) + Synthetic Emotion Dialogues (text)
 
 Language: Python
 
-📈 Results & Goals
+## 📈 Results & Goals
 
 EmotiFusion demonstrates the potential of vision-language fusion in emotion AI. Future improvements include real-world video-based emotion recognition and reinforcement-based fine-tuning for conversational agents.
