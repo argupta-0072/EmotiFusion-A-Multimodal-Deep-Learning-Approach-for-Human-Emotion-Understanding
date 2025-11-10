@@ -32,7 +32,7 @@ Models: ResNet18, MobileNetV3, BERT-base
 
 Dataset: AffectNet YOLO Format (Kaggle)
  — for facial emotion images
-
+https://www.kaggle.com/datasets/fatihkgg/affectnet-yolo-format 
 Synthetic Emotion Dialogues (generated for text-based emotion understanding)
 
 Language: Python
