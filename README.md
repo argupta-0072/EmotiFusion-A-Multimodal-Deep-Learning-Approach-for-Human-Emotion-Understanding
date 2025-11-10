@@ -30,7 +30,10 @@ Frameworks: PyTorch, Transformers (Hugging Face), Albumentations
 
 Models: ResNet18, MobileNetV3, BERT-base
 
-Dataset: AffectNet (faces) + Synthetic Emotion Dialogues (text)
+Dataset: AffectNet YOLO Format (Kaggle)
+ — for facial emotion images
+
+Synthetic Emotion Dialogues (generated for text-based emotion understanding)
 
 Language: Python
 
